@@ -1,0 +1,12 @@
+"uv venv" ->for creating virutal environment
+then activate the as per command shown in terminal.
+
+"uv init projectname" -> for creating new project with UV package manager.
+
+"uv run pyhton filename"->  to run the specific python file, it will aslo create the virtual
+environment if it's not created
+
+"uv add package_name" -> will install package or lib using UV
+
+"git --amend --no-eidt" -> To add a new file to the last pushed commit without 
+changing the commit message, 
