@@ -37,5 +37,6 @@ async def  main():
   result:Runner = await Runner.run(agent, f"I have these at home: {ingredients}. What can I cook?")
 
   print(result)
+  print(result.final_output)
 if __name__ == "__main__":
     asyncio.run(main())

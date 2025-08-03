@@ -10,3 +10,5 @@ environment if it's not created
 
 "git --amend --no-eidt" -> To add a new file to the last pushed commit without 
 changing the commit message, 
+
+-> to update Vscode Ide venv  crt+shift+p python:select interpter-> enter interpter path ->paste copy path of .venv

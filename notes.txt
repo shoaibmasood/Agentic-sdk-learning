@@ -1,0 +1,13 @@
+1.in which we levels we can assign model
+    Agent level -> Agent(model = llm_model) or Agent Creating time,benefit dif model for every agent.
+    Global level-> configured once at global
+    at Runtime level ->  at RunConfig.- Agent will decide at runtime  which model to call
+    based of task
+
+2.  what the best practice to define it? Agent level.
+
+3. when passing name to the Agent Class"Agent(name=Mathagent)" does it pass it 
+down to llm model? Answer is No
+
+Need to ask ?
+4. in Global if you passing model at Agent level then whats the difference b/w agent level and global
